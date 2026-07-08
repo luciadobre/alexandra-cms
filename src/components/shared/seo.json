@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "seo",
+    "icon": "chartPie"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "metaImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "metaSocial": {
+      "type": "component",
+      "component": "shared.meta-social",
+      "repeatable": false
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "metaRobots": {
+      "type": "string"
+    },
+    "structuredData": {
+      "type": "json"
+    },
+    "metaViewport": {
+      "type": "string"
+    },
+    "canonicalUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
